@@ -8,15 +8,15 @@ cd %X_SOURCE_PATH%\gui_source
 call %X_SOURCE_PATH%\build_tools\windows.cmd make_translate gui_source_tr.pro 
 cd %X_SOURCE_PATH%
 echo "Check files"
-rem call %X_SOURCE_PATH%\build_tools\windows.cmd check_file %X_SOURCE_PATH%\build\release\die.exe
+call %X_SOURCE_PATH%\build_tools\windows.cmd check_file %X_SOURCE_PATH%\build\release\die.exe
 
 IF NOT [%X_ERROR%] == [] goto exit
 
-rem call %X_SOURCE_PATH%\build_tools\windows.cmd check_file %X_SOURCE_PATH%\build\release\diec.exe
+call %X_SOURCE_PATH%\build_tools\windows.cmd check_file %X_SOURCE_PATH%\build\release\diec.exe
 
 IF NOT [%X_ERROR%] == [] goto exit
 
-rem call %X_SOURCE_PATH%\build_tools\windows.cmd check_file %X_SOURCE_PATH%\build\release\diel.exe
+call %X_SOURCE_PATH%\build_tools\windows.cmd check_file %X_SOURCE_PATH%\build\release\diel.exe
 
 IF NOT [%X_ERROR%] == [] goto exit
 

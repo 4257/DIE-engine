@@ -2,5 +2,10 @@
     <qresource prefix="/">
         <file>images/about.png</file>
         <file>images/main.png</file>
+        <file>icons/Refresh.16.16.png</file>
+        <file>icons/DisassemblyWindow.16.16.png</file>
+        <file>icons/Binary.16.16.png</file>
+        <file>icons/BreakpointDisabled.16.16.png</file>
+        <file>icons/BreakpointEnabled.16.16.png</file>
     </qresource>
 </RCC>
